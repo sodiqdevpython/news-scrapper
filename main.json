@@ -1,0 +1,384 @@
+[
+    {
+        "base_url": "https://24.kz/ru",
+        "is_url_required": True,
+        "page_count": 1,
+        "pagination_url": "https://24.kz/ru/news/",
+        "source": "24.kz",
+        "type": "global",
+        "logo": "https://24.kz/templates/24kz/img/logo-24kz.png",
+        "post_data": {
+            "title": {"h1": {"class": "single-post__entry-title"}},
+            "published_at": {"li": {"class": "entry__meta-date"}},
+            "date_format": None,
+            "content": {"div": {"class": "entry__article"}},
+            "category": {"li": {"class": "breadcrumbs__item breadcrumbs__item--current"}},
+            "view_count": {"li": {"class": "entry__meta-views"}},
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://astanatv.kz/ru/",
+        "is_url_required": True,
+        "page_count": 5,    
+        "pagination_url": "https://astanatv.kz/ru/news/?page={}",
+        "source": "astanatv.kz",
+        "type": "global",
+        "logo": "https://astanatv.kz/assets/astanatv-logo.png",
+        "post_data": {
+            "title": {"h1": {"class": "news__title xl-mb-20 xs-mb-20"}},
+            "published_at": {"div": {"class": "news__date xl-mr-20"}},
+            "date_format": None,
+            "content": {"div": {"class": "news-full-text"}},
+            "category": {"ul": {"class": "td-category"}},
+            "view_count": {"div": {"class": "news__views"}},
+            "reaction_count": None,
+            "image_url": {"img": {"class": "news__image"}}
+        }
+    },
+    {
+        "base_url": "https://www.zakon.kz/",
+        "is_url_required": True,
+        "page_count": 1,    
+        "pagination_url": "https://www.zakon.kz/mir/",
+        "source": "zakon.kz",
+        "type": "global",
+        "logo": "https://www.zakon.kz/icon.svg",
+        "post_data": {
+            "title": "h1",
+            "published_at": {"div": {"class": "article__dateline"}},
+            "date_format": None,
+            "content": {"div": {"class": "content"}},
+            "category": {"ul": {"class": "breadcrumb"}},
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://informburo.kz/",
+        "is_url_required": False,
+        "page_count": 5,    
+        "pagination_url": "https://informburo.kz/novosti?page={}",
+        "source": "informburo.kz",
+        "type": "global",
+        "logo": "https://informburo.kz/img/favicons/apple-touch-icon.png",
+        "post_data": {
+            "title": {"div": {"class": "article-title"}},
+            "published_at": {"time"},
+            "date_format": None,
+            "content": {"div": {"class": "article"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"uk-responsive-width"}}
+        }
+    },
+    {
+        "base_url": "https://kz.kursiv.media",
+        "is_url_required": False,
+        "page_count": 5,    
+        "pagination_url": "https://kz.kursiv.media/news/page/{}/",
+        "source": "kz.kursiv.media",
+        "type": "global",
+        "logo": "https://cdn-kz.kursiv.media/wp-content/themes/kursiv/dist/favicon.ico",
+        "post_data": {
+            "title": {"h1"},
+            "published_at": {"div": {"class": "subcat-article__header__date"}},
+            "date_format": None,
+            "content": {"div": {"class": "single-body lifestyle-article-body subcat-article__content"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://www.caravan.kz/",
+        "is_url_required": True,
+        "page_count": 5,    
+        "pagination_url": "https://www.caravan.kz/news/page/{}/",
+        "source": "caravan.kz",
+        "type": "global",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfxef1I3C9GcYw21K2oTPf6tOYgybNLTcyrg&s",
+        "post_data": {
+            "title": {"h1":{"class":"PatternCurrentNewsHead__title"}},
+            "published_at": None,
+            "date_format": None,
+            "content": {"div": {"class": "global-style--article-content"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"div":{"class": "PatternCurrentNewsHead__img"}}
+        }
+    },
+    {
+        "base_url": "https://liter.kz/",
+        "is_url_required": False,
+        "page_count": 5,    
+        "pagination_url": "https://liter.kz/kazakhstan-news/?page={}",
+        "source": "liter.kz",
+        "type": "global",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfxef1I3C9GcYw21K2oTPf6tOYgybNLTcyrg&s",
+        "post_data": {
+            "title": {"h1":{"class":"news__title"}},
+            "published_at": {"div": {"class": "news__date"}},
+            "date_format": None,
+            "content": {"div": {"class": "news__text xl-mb-20"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://www.kt.kz/",
+        "is_url_required": True,
+        "page_count": 5,    
+        "pagination_url": "https://www.kt.kz/rus/state?page={}",
+        "source": "kt.kz",
+        "type": "global",
+        "logo": "https://www.kt.kz/packs/images/site/logo-1133c521ce834efeb3f5a1ad9bb86345.png",
+        "post_data": {
+            "title": {"h1":{"class":"page-title"}},
+            "published_at": {"span": {"class": "date"}},
+            "date_format": None,
+            "content": {"div": {"class": "page-content"}},
+            "category": None,
+            "view_count": {"span": {"class": "views"}},
+            "reaction_count": None,
+            "image_url": {"div": {"class":"page-content-preview"}}
+        }
+    },
+    {
+        "base_url": "https://time.kz/",
+        "is_url_required": True,
+        "page_count": 1,
+        "pagination_url": "https://time.kz/news",
+        "source": "time.kz",
+        "type": "global",
+        "logo": "https://time.kz/assets/daa8581d/i/logo.svg",
+        "post_data": {
+            "title": {"h1":{"class": "post__title"}},
+            "published_at": None,
+            "date_format": None,
+            "content": {"div": {"class": "post__text"}},
+            "category": None,
+            "view_count": {"span": {"class": "article__views"}},
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://www.lada.kz/",
+        "is_url_required": True,
+        "page_count": 5,
+        "pagination_url": "https://www.lada.kz/kazakhstan-news/?page={}",
+        "source": "lada.kz",
+        "type": "global",
+        "logo": "https://www.lada.kz/uploads/Lada_SVG.svg",
+        "post_data": {
+            "title": {"h1":{"class": "news__title xs-pb-15 xl-pb-25"}},
+            "published_at": {"span": {"class": "news__date"}},
+            "date_format": None,
+            "content": {"div": {"class": "news__extract xs-mb-30 xl-mb-30"}},
+            "category": None,
+            "view_count": {"span": {"class": "news__views d-block xs-pr-5 xl-pr-15"}},
+            "reaction_count": None,
+            "image_url": {"img": {"class": "d-block news__image xs-mb-15 xl-mb-15"}}
+        }
+    },
+    {
+        "base_url": "https://kstnews.kz/",
+        "is_url_required": True,
+        "page_count": 5,
+        "pagination_url": "https://kstnews.kz/novosti/page/{}/",
+        "source": "kstnews.kz",
+        "type": "global",
+        "logo": "https://kstnews.kz/wp-content/uploads/2025/03/cropped-logo.png",
+        "post_data": {
+            "title": {"h1":{"class": "entry-title"}},
+            "published_at": None,
+            "date_format": None,
+            "content": {"div": {"class": "entry-content"}},
+            "category": None,
+            "view_count": {"span": {"class": "post-views-count"}},
+            "reaction_count": None,
+            "image_url": {"div": {"class": "featured-image-after-title"}}
+        }
+    },
+    {
+        "base_url": "https://diapazon.kz/",
+        "is_url_required": True,
+        "page_count": 1,
+        "pagination_url": "https://diapazon.kz/all-news/aktobe",
+        "source": "diapazon.kz",
+        "type": "global",
+        "logo": "https://diapazon.kz/img/logo.svg",
+        "post_data": {
+            "title": {"div":{"class": "content-block__top"}},
+            "published_at": None,
+            "date_format": None,
+            "content": {"div": {"class": "publication__content"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://ognialatau.kz/",
+        "is_url_required": True,
+        "page_count": 5,
+        "pagination_url": "https://ognialatau.kz/news/page{}/",
+        "source": "ognialatau.kz",
+        "type": "global",
+        "logo": "https://ognialatau.kz/includes/templates/default/img/logotype.png",
+        "post_data": {
+            "title": {"h1":{"class": "entry-title"}},
+            "published_at": {"div": {"class": "col-sm-4 center"}},
+            "date_format": None,
+            "content": {"div": {"class": "entry-content"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://dknews.kz/",
+        "is_url_required": True,
+        "page_count": 1,
+        "pagination_url": "https://dknews.kz/ru/politika",
+        "source": "dknews.kz",
+        "type": "global",
+        "logo": "https://dknews.kz/favicon.svg",
+        "post_data": {
+            "title": {"div": {"class": "postIntro"}},
+            "published_at": None,
+            "date_format": None,
+            "content": {"div": {"class": "text"}},
+            "category": None,
+            "view_count": {"span": {"class": "icon-eye"}},
+            "reaction_count": None,
+            "image_url": {"div": {"mainpic"}}
+        }
+    },
+    {
+        "base_url": "https://kabar.kg/",
+        "is_url_required": True,
+        "page_count": 5,
+        "pagination_url": "https://en.kabar.kg/news/page_{}/",
+        "source": "kabar.kg",
+        "type": "global",
+        "logo": "https://en.kabar.kg/static/images/logo.svg?v=1737706362",
+        "post_data": {
+            "title": {"h1": {"class": "page-article-title"}},
+            "published_at": {"span":{"class": "page-article-data-item"}},
+            "date_format": None,
+            "content": {"div": {"class": "page-article-text-block"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"class": "page-article-cover"}}
+        }
+    },
+    {
+        "base_url": "https://slovo.kg/",
+        "is_url_required": False,
+        "page_count": 5,
+        "pagination_url": "https://slovo.kg/obshhestvo/page/{}/",
+        "source": "slovo.kg",
+        "type": "global",
+        "logo": "https://slovo.kg/wp-content/uploads/2025/03/logo1.1-2048x495.jpg",
+        "post_data": {
+            "title": {"h1": {"class": "entry-title"}},
+            "published_at": None,
+            "date_format": None,
+            "content": {"div": {"class": "entry-content"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://24.kg/",
+        "is_url_required": False,
+        "page_count": 5,
+        "pagination_url": "https://24.kg/page_{}/",
+        "source": "24.kg",
+        "type": "global",
+        "logo": "https://24.kg/assets/7a772a43/images/logo.png",
+        "post_data": {
+            "title": {"h1": {"class": "newsTitle"}},
+            "published_at": None,
+            "date_format": None,
+            "content": {"div": {"class": "cont"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://kloop.kg/",
+        "is_url_required": False,
+        "page_count": 5,
+        "pagination_url": "https://kloop.kg/news/{}/",
+        "source": "kloop.kg",
+        "type": "global",
+        "logo": "https://kloop.kg/wp-content/uploads/2023/09/kloop_logo_272.jpg",
+        "post_data": {
+            "title": {"h1": {"class": "entry-title"}},
+            "published_at": None,
+            "date_format": None,
+            "content": {"div": {"class": "td-post-content"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://internews.kg/en/",
+        "is_url_required": False,
+        "page_count": 1,
+        "pagination_url": "https://internews.kg/en/",
+        "source": "internews.kg",
+        "type": "global",
+        "logo": "https://internews.kg/wp-content/uploads/2024/04/logo_eng1.png",
+        "post_data": {
+            "title": {"h1": {"class": "is-title post-title"}},
+            "published_at": None,
+            "date_format": None,
+            "content": {"div": {"class": "post-content-wrap"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"div": {"class": "featured"}}
+        }
+    },
+    {
+        "base_url": "https://gazeta.kg/",
+        "is_url_required": False,
+        "page_count": 1,
+        "pagination_url": "https://gazeta.kg/page/{}/",
+        "source": "gazeta.kg",
+        "type": "global",
+        "logo": "https://gazeta.kg/templates/Default/dleimages/logo.png",
+        "post_data": {
+            "title": {"h1": {"class": "dn-short-t"}},
+            "published_at": None,
+            "date_format": None,
+            "content": {"div": {"class": "page__text"}},
+            "category": None,
+            "view_count": {"div": {"class": "f_eye"}},
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    
+
+]

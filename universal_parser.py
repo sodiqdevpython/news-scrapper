@@ -93,12 +93,11 @@ class NewsParser:
     @staticmethod
     def fetch_html(url):
         headers = {
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " \
-                                "(KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36",
-                    "Accept-Language": "uz-UZ,uz;q=0.9"
-        }
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " \
+                            "(KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36",
+                "Accept-Language": "uz-UZ,uz;q=0.9"
+            }
         response = requests.get(url, headers=headers)
-        
         time.sleep(5)
         return BeautifulSoup(response.text, 'html.parser')
 
@@ -155,7 +154,7 @@ class NewsParser:
                     if post_data['date_format'] is not None:
                         published_at = eval(post_data['date_format'])
 
-                published_at = self.parse_russian_date(self.kiril_to_lotin(published_at))
+                published_at = self.parse_russian_date(published_at)
 
                 print("published_at",published_at)
 
@@ -218,29 +217,29 @@ if __name__ == "__main__":
     ## reaction_count olish
     parser_config_list =[
     {
-        "base_url": "https://gazeta.kg/",
-        "is_url_required": False,
-        "page_count": 1,
-        "pagination_url": "https://gazeta.kg/page/{}/",
-        "source": "gazeta.kg",
+        "base_url": "https://central.asia-news.com/",
+        "is_url_required": True,
+        "page_count": 5,
+        "pagination_url": "https://central.asia-news.com/",
+        "source": "central.asia-news.com",
         "type": "global",
-        "logo": "https://gazeta.kg/templates/Default/dleimages/logo.png",
+        "logo": "https://central.asia-news.com/packs/media/images/3119f7ce65989a104199.svg",
         "post_data": {
-            "title": {"h1": {"class": "dn-short-t"}},
-            "published_at": None,
+            "title": {"h1": {"class": "article__title"}},
+            "published_at": {"p": {"class":"article__date"}},
             "date_format": None,
-            "content": {"div": {"class": "page__text"}},
+            "content": {"div": {"class": "article__content"}},
             "category": None,
-            "view_count": {"div": {"class": "f_eye"}},
+            "view_count": None,
             "reaction_count": None,
-            "image_url": None
+            "image_url": {"img": {"class": "article__media--img"}}
         }
     }
 
 ]
 
     for parser_config in parser_config_list:
-        new_parser = NewsParser("https://gazeta.kg/en/",
+        new_parser = NewsParser("https://central.asia-news.com/",
                                 parser_config
                                 )
 
@@ -250,7 +249,7 @@ if __name__ == "__main__":
         # post_data_list = new_parser.parse_data(url_set)
 
         post_data_list = new_parser.parse_data(
-            ["https://gazeta.kg/exclusive/125178-husity-primenjali-novinki-v-taktike-i-tehnike-kapitan-francuzskogo-fregata-rasskazal-ob-ezhednevnyh-ugrozah-v-krasnom-more.html"])
+            ["https://central.asia-news.com/ru/articles/cnmi_ca/features/2023/08/15/feature-01"])
 
         final_data = {
             "source": parser_config['source'],

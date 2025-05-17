@@ -1,0 +1,231 @@
+[
+    {
+        "base_url": "https://3-mob.com/",
+        "is_url_required": False,
+        "page_count": 5,
+        "pagination_url": "https://3-mob.com/page/{}/",
+        "source": "3-mob.com",
+        "type": "global",
+        "logo": "https://3-mob.com/wp-content/uploads/2018/05/logo-main.png",
+        "post_data": {
+            "title": {"h1"},
+            "published_at": {"time": {"class": "entry-date"}},
+            "date_format": None,
+            "content": {"div": {"class": "g1-content-narrow"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://smallwarsjournal.com/",
+        "is_url_required": False,
+        "page_count": 5,
+        "pagination_url": "https://smallwarsjournal.com/recent/page/{}/",
+        "source": "smallwarsjournal.com",
+        "type": "global",
+        "logo": "https://smallwarsjournal.com/wp-content/themes/swj/favicon.ico",
+        "post_data": {
+            "title": {"h1": {"class": "postBxTitle"}},
+            "published_at": {"div": {"class": "postBxDate"}},
+            "date_format": None,
+            "content": {"div": {"class": "postBxContent"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"div": {"class": "featuredImg"}}
+        }
+    },
+    {
+        "base_url": "https://globalpressjournal.com/",
+        "is_url_required": False,
+        "page_count": 1,
+        "pagination_url": "https://globalpressjournal.com/",
+        "source": "globalpressjournal.com",
+        "type": "global",
+        "logo": "https://gpjs3bucket.s3.amazonaws.com/wp-content/uploads/2022/01/26103428/01_GPJ_HORIZONTAL_COLOR-e1643222113629.png",
+        "post_data": {
+            "title": {"h1"},
+            "published_at": None,
+            "date_format": None,
+            "content": {"div": {"class": "gpj-main-article"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"class": "story-content-section-banner"}}
+        }
+    },
+    {
+        "base_url": "https://www.thestar.com/",
+        "is_url_required": True,
+        "page_count": 1,
+        "pagination_url": "https://www.thestar.com/",
+        "source": "thestar.com",
+        "type": "global",
+        "logo": "https://bloximages.chicago2.vip.townnews.com/thestar.com/content/tncms/live/libraries/flex/components/torstar_core/resources/images/favicons/thestar/android-icon-192x192.png?_dc=1747244110",
+        "post_data": {
+            "title": {"h1": {"class": "headline"}},
+            "published_at": None,
+            "date_format": None,
+            "content": {"div": {"id": "article-body"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": None,
+        }
+    },
+    {
+        "base_url": "https://worldnews24you.blogspot.com/",
+        "is_url_required": False,
+        "page_count": 1,
+        "pagination_url": "https://worldnews24you.blogspot.com/",
+        "source": "worldnews24you.blogspot.com",
+        "type": "global",
+        "logo": "https://worldnews24you.blogspot.com/favicon.ico",
+        "post_data": {
+            "title": {"h1": {"class": "post-title"}},
+            "published_at": None,
+            "date_format": None,
+            "content": {"span": {"style": "font-size:1.3em;"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"align": "right"}},
+        }
+    },
+    {
+        "base_url": "https://newszetu.com/",
+        "is_url_required": False,
+        "page_count": 1,
+        "pagination_url": "https://newszetu.com/",
+        "source": "newszetu.com",
+        "type": "global",
+        "logo": None,
+        "post_data": {
+            "title": {"h1": {"class": "entry-title"}},
+            "published_at": None,
+            "date_format": None,
+            "content": {"div": {"class": "entry-content"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": None,
+        }
+    },
+    {
+        "base_url": "https://www.usnn.news/",
+        "is_url_required": False,
+        "page_count": 1,
+        "pagination_url": "https://www.usnn.news/",
+        "source": "usnn.news",
+        "type": "global",
+        "logo": "https://www.usnn.news/wp-content/uploads/2021/01/USNN-News-Logo-3000px-2048x625.jpg",
+        "post_data": {
+            "title": {"h1": {"class": "entry-title"}},
+            "published_at": {"time": {"class": "entry-date published"}},
+            "date_format": None,
+            "content": {"div": {"class": "entry-content"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"class": "attachment-newspack-featured-image"}},
+        }
+    },
+    {
+        "base_url": "https://www.headlinesoftoday.com/",
+        "is_url_required": False,
+        "page_count": 1,
+        "pagination_url": "https://www.headlinesoftoday.com/news/page/{}",
+        "source": "headlinesoftoday.com",
+        "type": "global",
+        "logo": None,
+        "post_data": {
+            "title": {"h1": {"class": "post-title"}},
+            "published_at": {"span": {"class": "date meta-item tie-icon"}},
+            "date_format": None,
+            "content": {"div": {"class": "entry-content"}},
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"class": "attachment-jannah-image-post"}},
+        }
+    },
+    {
+        "base_url": "https://www.thedailycanvas.com/",
+        "is_url_required": False,
+        "page_count": 5,
+        "pagination_url": "https://www.thedailycanvas.com/page/{}/",
+        "source": "thedailycanvas.com",
+        "type": "global",
+        "logo": "https://www.thedailycanvas.com/wp-content/uploads/2025/01/The-Daily-Canvas-1.png",
+        "post_data": {
+            "title": {"h1": {"class": "tdb-title-text"}},
+            "published_at": None,
+            "date_format": None,
+            "content": None,
+            "category": {"a": {"class": "tdb-entry-category"}},
+            "view_count": {"span": {"class": "td-nr-views-754"}},
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://articleify.com/",
+        "is_url_required": False,
+        "page_count": 5,
+        "pagination_url": "https://articleify.com/news/page/{}/",
+        "source": "articleify.com",
+        "type": "global",
+        "logo": "https://articleify.com/wp-content/uploads/2021/11/articleify-logo-header.png",
+        "post_data": {
+            "title": {"h1": {"class": "entry-title"}},
+            "published_at": {"time": {"class": "td-module-date"}},
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"class": "entry-thumb"}}
+        }
+    },
+    {
+        "base_url": "https://wng.org/",
+        "is_url_required": False,
+        "page_count": 5,
+        "pagination_url": "https://wng.org/sift/p{}",
+        "source": "wng.org",
+        "type": "global",
+        "logo": "https://wng.org/images/logo.svg",
+        "post_data": {
+            "title": {"h1": {"style": "font-weight: 900; font-size: 60px; line-height: 1; margin-bottom: 10px;"}},
+            "published_at": {"span": {"class": "postDate mt-2 block"}},
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://www.scmp.com/",
+        "is_url_required": False,
+        "page_count": 1,
+        "pagination_url": "https://www.scmp.com/live?module=oneline_menu_section_int&pgtype=homepage",
+        "source": "scmp.com",
+        "type": "global",
+        "logo": "https://assets-v2.i-scmp.com/production/favicon.ico",
+        "post_data": {
+            "title": {"span": {"data-qa": "ContentHeadline-Headline"}},
+            "published_at": {"time": {"data-qa": "Article20Date-PublishedDate"}},
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"data-qa": "BaseImage-handleRenderImage-StyledImage"}}
+        }
+    },
+    
+]

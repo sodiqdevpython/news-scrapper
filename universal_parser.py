@@ -217,29 +217,29 @@ if __name__ == "__main__":
     ## reaction_count olish
     parser_config_list =[
     {
-        "base_url": "https://central.asia-news.com/",
-        "is_url_required": True,
-        "page_count": 5,
-        "pagination_url": "https://central.asia-news.com/",
-        "source": "central.asia-news.com",
+        "base_url": "https://www.scmp.com/",
+        "is_url_required": False,
+        "page_count": 1,
+        "pagination_url": "https://www.scmp.com/live?module=oneline_menu_section_int&pgtype=homepage",
+        "source": "scmp.com",
         "type": "global",
-        "logo": "https://central.asia-news.com/packs/media/images/3119f7ce65989a104199.svg",
+        "logo": "https://assets-v2.i-scmp.com/production/favicon.ico",
         "post_data": {
-            "title": {"h1": {"class": "article__title"}},
-            "published_at": {"p": {"class":"article__date"}},
+            "title": {"span": {"data-qa": "ContentHeadline-Headline"}},
+            "published_at": {"time": {"data-qa": "Article20Date-PublishedDate"}},
             "date_format": None,
-            "content": {"div": {"class": "article__content"}},
+            "content": None,
             "category": None,
             "view_count": None,
             "reaction_count": None,
-            "image_url": {"img": {"class": "article__media--img"}}
+            "image_url": {"img": {"data-qa": "BaseImage-handleRenderImage-StyledImage"}}
         }
     }
 
 ]
 
     for parser_config in parser_config_list:
-        new_parser = NewsParser("https://central.asia-news.com/",
+        new_parser = NewsParser("https://www.scmp.com/",
                                 parser_config
                                 )
 
@@ -249,7 +249,7 @@ if __name__ == "__main__":
         # post_data_list = new_parser.parse_data(url_set)
 
         post_data_list = new_parser.parse_data(
-            ["https://central.asia-news.com/ru/articles/cnmi_ca/features/2023/08/15/feature-01"])
+            ["https://www.scmp.com/news/hong-kong/politics/article/3310742/beijing-planned-hong-kongs-subsidiary-security-legislation-months"])
 
         final_data = {
             "source": parser_config['source'],

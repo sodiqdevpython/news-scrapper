@@ -1,0 +1,231 @@
+[
+    {
+        "base_url": "https://expert.ru/",
+        "is_url_required": True,
+        "page_count": 1,
+        "pagination_url": "https://expert.ru/obshchestvo/",
+        "source": "expert.ru",
+        "type": "global",
+        "logo": "https://expert.ru/favicon.svg",
+        "post_data": {
+            "title": {"h1"},
+            "published_at": {"span": {"class": "article-date"}},
+            "date_format": None,
+            "content": None,
+            "category": {"li": {"itemprop": "itemListElement"}},
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"itemprop": "contentUrl"}}
+        }
+    },
+    {
+        "base_url": "https://utro.ru/",
+        "is_url_required": True,
+        "page_count": 1,
+        "pagination_url": "https://utro.ru/politics.shtml",
+        "source": "utro.ru",
+        "type": "global",
+        "logo": "https://utro.ru/static/img/favicon.ico",
+        "post_data": {
+            "title": {"h1": {"class": "news__title"}},
+            "published_at": {"time": {"class": "news__date"}},
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"class": "lazyload"}}
+        }
+    },
+    {
+        "base_url": "https://www.scmp.com/",
+        "is_url_required": False,
+        "page_count": 1,
+        "pagination_url": "https://www.scmp.com/live?module=oneline_menu_section_int&pgtype=homepage",
+        "source": "scmp.com",
+        "type": "global",
+        "logo": "https://assets-v2.i-scmp.com/production/favicon.ico",
+        "post_data": {
+            "title": {"span": {"data-qa": "ContentHeadline-Headline"}},
+            "published_at": {"time": {"data-qa": "Article20Date-PublishedDate"}},
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"data-qa": "BaseImage-handleRenderImage-StyledImage"}}
+        }
+    },
+    {
+        "base_url": "https://daryo.uz/",
+        "is_url_required": True,
+        "page_count": 1,
+        "pagination_url": "https://daryo.uz/category/uzbekistan?utm=from_c-a_sub-menu",
+        "source": "daryo.uz",
+        "type": "local",
+        "logo": "https://daryo.uz/logo/logo-white.svg",
+        "post_data": {
+            "title": {"h1"},
+            "published_at": {"time": {"class": "post-date"}},
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://liter.kz/",
+        "is_url_required": True,
+        "page_count": 5,
+        "pagination_url": "https://liter.kz/kazakhstan-news/?page={}",
+        "source": "liter.kz",
+        "type": "global",
+        "logo": "https://liter.kz/build/favicons/favicon-32x32.png",
+        "post_data": {
+            "title": {"h1": {"class": "news__title"}},
+            "published_at": {"div": {"class": "news__date"}},
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"class": "news__image"}}
+        }
+    },
+    {
+        "base_url": "https://viborsalavat.com/",
+        "is_url_required": False,
+        "page_count": 5,
+        "pagination_url": "https://www.viborsalavat.com/category/domshoping/page/{}/",
+        "source": "viborsalavat.com",
+        "type": "global",
+        "logo": None,
+        "post_data": {
+            "title": {"h1": {"class": "entry-title"}},
+            "published_at": {"time": {"class": "entry-date"}},
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"class": "jarallax-img"}}
+        }
+    },
+    {
+        "base_url": "https://xabar.uz/",
+        "is_url_required": False,
+        "page_count": 5,
+        "pagination_url": "https://xabar.uz/yangiliklar?load={}",
+        "source": "xabar.uz",
+        "type": "local",
+        "logo": "https://xabar.uz/static/assets/73a7d9c9/img/logo-desktop.svg",
+        "post_data": {
+            "title": {"h2": {"class": "post__title"}},
+            "published_at": {"span": {"class": "date-time"}},
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": {"i": {"class": "eye-icon"}},
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://khovar.tj/",
+        "is_url_required": False,
+        "page_count": 1,
+        "pagination_url": "https://khovar.tj/",
+        "source": "khovar.tj",
+        "type": "global",
+        "logo": "https://khovar.tj/logo/favicon.png",
+        "post_data": {
+            "title": {"h1"},
+            "published_at": {"span": {"class": "meta"}},
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"width": "800"}}
+        }
+    },
+    {
+        "base_url": "https://24.kz/ru",
+        "is_url_required": True,
+        "page_count": 1,
+        "pagination_url": "https://24.kz/ru/news/",
+        "source": "24.kz",
+        "type": "global",
+        "logo": "https://24.kz/templates/24kz/img/logo-24kz.png",
+        "post_data": {
+            "title": {"h1": {"class": "single-post__entry-title"}},
+            "published_at": {"li": {"class": "entry__meta-date"}},
+            "date_format": None,
+            "content": {"div": {"class": "entry__article"}},
+            "category": {"li": {"class": "breadcrumbs__item breadcrumbs__item--current"}},
+            "view_count": {"li": {"class": "entry__meta-views"}},
+            "reaction_count": None,
+            "image_url": None
+        }
+    },
+    {
+        "base_url": "https://www.gazeta.uz/oz/",
+        "is_url_required": True,
+        "page_count": 5,
+        "pagination_url": "https://www.gazeta.uz/oz/list/news?page={}",
+        "source": "gazeta.uz",
+        "type": "local",
+        "logo": "https://www.gazeta.uz/i/icon/apple-touch-icon.png",
+        "post_data": {
+            "title": {"h1": {"id": "article_title"}},
+            "published_at": None,
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": {"div": {"class": "views-count"}},
+            "reaction_count": None,
+            "image_url": {"img": {"class": "articleBigPic"}}
+        }
+    },
+    {
+        "base_url": "https://en.kabar.kg/",
+        "is_url_required": True,
+        "page_count": 5,
+        "pagination_url": "https://en.kabar.kg/cat/president/page_{}/",
+        "source": "kabar.kg",
+        "type": "global",
+        "logo": "https://en.kabar.kg/static/icon/favicon-96x96.png",
+        "post_data": {
+            "title": {"h1": {"class": "page-article-title"}},
+            "published_at": {"span": {"class": "page-article-data-item"}},
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"class": "page-article-cover"}}
+        }
+    },
+    {
+        "base_url": "https://republic.ru/",
+        "is_url_required": True,
+        "page_count": 1,
+        "pagination_url": "https://republic.ru/",
+        "source": "republic.ru",
+        "type": "global",
+        "logo": None,
+        "post_data": {
+            "title": {"h1": {"class": "post-title"}},
+            "published_at": {"span": {"class": "post-meta__published-at"}},
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"class": "post-heroimage__image"}}
+        }
+    },
+    
+]

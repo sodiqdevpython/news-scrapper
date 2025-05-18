@@ -217,29 +217,29 @@ if __name__ == "__main__":
     ## reaction_count olish
     parser_config_list =[
     {
-        "base_url": "https://www.scmp.com/",
-        "is_url_required": False,
+        "base_url": "https://republic.ru/",
+        "is_url_required": True,
         "page_count": 1,
-        "pagination_url": "https://www.scmp.com/live?module=oneline_menu_section_int&pgtype=homepage",
-        "source": "scmp.com",
+        "pagination_url": "https://republic.ru/",
+        "source": "republic.ru",
         "type": "global",
-        "logo": "https://assets-v2.i-scmp.com/production/favicon.ico",
+        "logo": None,
         "post_data": {
-            "title": {"span": {"data-qa": "ContentHeadline-Headline"}},
-            "published_at": {"time": {"data-qa": "Article20Date-PublishedDate"}},
+            "title": {"h1": {"class": "post-title"}},
+            "published_at": {"span": {"class": "post-meta__published-at"}},
             "date_format": None,
             "content": None,
             "category": None,
             "view_count": None,
             "reaction_count": None,
-            "image_url": {"img": {"data-qa": "BaseImage-handleRenderImage-StyledImage"}}
+            "image_url": {"img": {"class": "post-heroimage__image"}}
         }
     }
 
 ]
 
     for parser_config in parser_config_list:
-        new_parser = NewsParser("https://www.scmp.com/",
+        new_parser = NewsParser("https://republic.ru",
                                 parser_config
                                 )
 
@@ -249,7 +249,7 @@ if __name__ == "__main__":
         # post_data_list = new_parser.parse_data(url_set)
 
         post_data_list = new_parser.parse_data(
-            ["https://www.scmp.com/news/hong-kong/politics/article/3310742/beijing-planned-hong-kongs-subsidiary-security-legislation-months"])
+            ["https://republic.ru/posts/115665"])
 
         final_data = {
             "source": parser_config['source'],

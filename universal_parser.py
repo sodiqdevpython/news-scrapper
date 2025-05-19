@@ -217,29 +217,29 @@ if __name__ == "__main__":
     ## reaction_count olish
     parser_config_list =[
     {
-        "base_url": "https://republic.ru/",
-        "is_url_required": True,
+        "base_url": "https://daryo.uz/",
+        "is_url_required": False,
         "page_count": 1,
-        "pagination_url": "https://republic.ru/",
-        "source": "republic.ru",
-        "type": "global",
-        "logo": None,
+        "pagination_url": "https://daryo.uz/category/uzbekistan",
+        "source": "daryo.uz",
+        "type": "local",
+        "logo": "https://daryo.uz/logo/logo-white.svg",
         "post_data": {
-            "title": {"h1": {"class": "post-title"}},
-            "published_at": {"span": {"class": "post-meta__published-at"}},
+            "title": {"h1": {"class": "post-view-title"}},
+            "published_at": {"time": {"class": "post-date"}},
             "date_format": None,
             "content": None,
             "category": None,
             "view_count": None,
-            "reaction_count": None,
-            "image_url": {"img": {"class": "post-heroimage__image"}}
+            "reaction_count": {"i": {"class": "tsi-hot"}},
+            "image_url": None
         }
     }
 
 ]
 
     for parser_config in parser_config_list:
-        new_parser = NewsParser("https://republic.ru",
+        new_parser = NewsParser("https://daryo.uz/",
                                 parser_config
                                 )
 
@@ -249,7 +249,7 @@ if __name__ == "__main__":
         # post_data_list = new_parser.parse_data(url_set)
 
         post_data_list = new_parser.parse_data(
-            ["https://republic.ru/posts/115665"])
+            ["https://daryo.uz/2025/05/19/ozbekistonda-ayrim-oqituvchilar-20-mln-som-maosh-olayotgani-malum-qilindi"])
 
         final_data = {
             "source": parser_config['source'],

@@ -1,0 +1,116 @@
+[
+    {
+        "base_url": "https://agronet.uz/",
+        "is_url_required": False,
+        "page_count": 5,
+        "pagination_url": "https://agronet.uz/category/yangiliklar/page/{}/",
+        "source": "agronet.uz",
+        "type": "local",
+        "logo": "https://agronet.uz/wp-content/uploads/2018/12/favicon-new.png",
+        "post_data": {
+            "title": {"h1": {"class": "post-title single-post-title"}},
+            "published_at": None,
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"class": "attachment-penci-full-thumb"}}
+        }
+    },
+    {
+        "base_url": "https://buxoroisharif.uz/",
+        "is_url_required": False,
+        "page_count": 5,
+        "pagination_url": "https://buxoroisharif.uz/category/news/uzb/bukhara/page/{}/",
+        "source": "buxoroisharif.uz",
+        "type": "local",
+        "logo": "http://buxoroisharif.uz/wp-content/uploads/2023/03/logo-dd.png",
+        "post_data": {
+            "title": {"h1": {"class": "mvp-post-title"}},
+            "published_at": None,
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"width": "1200"}}
+        }
+    },
+    {
+        "base_url": "https://effect.uz/",
+        "is_url_required": True,
+        "page_count": 5,
+        "pagination_url": "https://effect.uz/uz/site/news?category_id={}",
+        "source": "effect.uz",
+        "type": "local",
+        "logo": "https://effect.uz/siteUpload/logo.png",
+        "post_data": {
+            "title": {"h2": {"class": "h3"}},
+            "published_at": None,
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"class": "img-fluid sms"}}
+        }
+    },
+    {
+        "base_url": "https://uznews.uz/uz",
+        "is_url_required": True,
+        "page_count": 1,
+        "pagination_url": "https://uznews.uz/uz/news",
+        "source": "uznews.uz",
+        "type": "local",
+        "logo": "https://uznews.uz/favicon-96x96.png",
+        "post_data": {
+            "title": {"h1": {"class": "section-header-title"}},
+            "published_at": None,
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": {"span": {"class": "widgets-item-text"}},
+            "reaction_count": None,
+            "image_url": {"img": {"width": "1440"}}
+        }
+    },
+    {
+        "base_url": "https://jizzaxnews.uz/uz/",
+        "is_url_required": False,
+        "page_count": 5,
+        "pagination_url": "https://jizzaxnews.uz/uz/category/ozbekiston/page/{}/",
+        "source": "jizzaxnews.uz",
+        "type": "local",
+        "logo": None,
+        "post_data": {
+            "title": {"h1": {"class": "entry-title"}},
+            "published_at": {"time": {"class": "entry-date"}},
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": None,
+            "image_url": {"img": {"width": "920"}}
+        }
+    },
+    {
+        "base_url": "https://daryo.uz/",
+        "is_url_required": False,
+        "page_count": 1,
+        "pagination_url": "https://daryo.uz/category/uzbekistan",
+        "source": "daryo.uz",
+        "type": "local",
+        "logo": "https://daryo.uz/logo/logo-white.svg",
+        "post_data": {
+            "title": {"h1": {"class": "post-view-title"}},
+            "published_at": {"time": {"class": "post-date"}},
+            "date_format": None,
+            "content": None,
+            "category": None,
+            "view_count": None,
+            "reaction_count": {"i": {"class": "tsi-hot"}},
+            "image_url": None
+        }
+    }
+]
